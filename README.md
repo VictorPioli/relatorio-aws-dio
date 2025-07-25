@@ -1,40 +1,54 @@
-RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
-Data: 25/07/2025
-Empresa: Abestergo Industries
-Nome: Victor Soares Nunes Pires de Oliveira
+# Relatório de Implementação de Serviços AWS
 
-Introdução
-Este relatório apresenta o processo de implementação de ferramentas na empresa Abestergo Industries, realizado por Victor Soares Nunes Pires de Oliveira. O objetivo do projeto foi elencar 3 serviços AWS, com a finalidade de realizar diminuição de custos imediatos.
+**Data:** 25/07/2025  
+**Empresa:** Abestergo Industries  
+**Responsável:** Victor Soares Nunes Pires de Oliveira
 
-Descrição do projeto
-O projeto de implementação de ferramentas foi dividido em 3 etapas, cada uma com seus objetivos específicos. A seguir, serão descritas as etapas do projeto:
+## 📌 Introdução
 
-Etapa 1:
+Este projeto tem como objetivo otimizar os custos operacionais da Abestergo Industries por meio da implementação de três serviços da AWS. As ferramentas escolhidas promovem escalabilidade, segurança, modernização de infraestrutura e armazenamento inteligente.
 
-Amazon EC2 com Auto Scaling
+## Descrição do Projeto
 
-Escalabilidade e resiliência para sistemas críticos (ERP/PDV)
+A implementação foi dividida em três etapas, cada uma com um serviço AWS voltado para resolver uma dor específica da operação da empresa:
 
-Utilizado para adaptar automaticamente a capacidade computacional conforme a demanda. Durante períodos de pico, aloca mais recursos para manter o desempenho; em períodos de baixa, reduz os custos. Garante alta disponibilidade, segurança e eliminação de desperdícios com infraestrutura ociosa.
+---
 
-Etapa 2:
+### ✅ Etapa 1: Amazon EC2 com Auto Scaling
+- **Foco:** Escalabilidade e resiliência para ERP/PDV.
+- **Uso:** Ajusta automaticamente os recursos computacionais de acordo com a demanda, garantindo alta disponibilidade em picos de acesso e economia em momentos de baixa utilização.
+- **Benefícios:**  
+  - Escalabilidade sob demanda  
+  - Redução de custos com infraestrutura  
+  - Alta disponibilidade e segurança na nuvem  
 
-AWS Database Migration Service (DMS) e Amazon RDS
+---
 
-Migração e gestão simplificada de bancos de dados
+### ✅ Etapa 2: AWS DMS + Amazon RDS
+- **Foco:** Migração e gestão de banco de dados.
+- **Uso:** Migração segura do banco local para a nuvem com administração simplificada pelo RDS.
+- **Benefícios:**  
+  - Conformidade com a LGPD  
+  - Backups automáticos e escalabilidade  
+  - Centralização de dados para análises estratégicas  
 
-Facilitou a migração de bancos locais para a nuvem com segurança. O RDS passou a gerenciar o banco de dados com escalabilidade, backups automáticos, conformidade com a LGPD e facilidade para análises centralizadas de dados operacionais.
+---
 
-Etapa 3:
+### ✅ Etapa 3: AWS Storage Gateway + Amazon S3
+- **Foco:** Armazenamento seguro e otimizado.
+- **Uso:** Conecta os dados locais ao S3 para armazenamento centralizado, seguro e de baixo custo.
+- **Benefícios:**  
+  - Backup e recuperação de desastres  
+  - Redução de custos com classes de armazenamento  
+  - Base sólida para Big Data e ML futuros  
 
-AWS Storage Gateway e Amazon S3
+---
 
-Armazenamento seguro, centralizado e com baixo custo
+## Conclusão
 
-Permitiram a centralização de documentos importantes, backups automáticos e redução de custos de armazenamento com uso de diferentes classes do S3. O ambiente híbrido garante continuidade e preparo para análises futuras com Big Data.
+A adoção dessas soluções AWS proporcionou melhorias imediatas nos custos e desempenho dos serviços da Abestergo Industries. As ferramentas garantem escalabilidade, segurança e preparo para expansão tecnológica. Recomenda-se a continuidade do uso e avaliação constante de novas soluções na nuvem.
 
-Conclusão
-A implementação de ferramentas na empresa Abestergo Industries tem como esperado a redução de custos, aumento da escalabilidade, segurança e centralização de dados, o que aumentará a eficiência e a produtividade da empresa. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos da empresa.
+---
 
-Assinatura do responsável do Projeto:
+**👨‍💼 Responsável pelo projeto:**  
 Victor Soares Nunes Pires de Oliveira
